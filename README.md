@@ -41,3 +41,5 @@ To solve a problem via command line, please run the command below:
 ```bash
 python ./src/tsp-solver.py './inputs/tsp-customers-test1.xlsx'
 ```
+
+Once the solver finishes running, the optimal route will be shown and a figure will pop up and could be saved to a file.

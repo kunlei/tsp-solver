@@ -245,6 +245,7 @@ class TspModel(TspModelBase):
             edge_start = edge_end
             
     def show_opt_route(self):
+        print(f'optimal route: {self._opt_route}')
         TspVisualizer.show(self._node_coords, self._opt_route)
         
         
